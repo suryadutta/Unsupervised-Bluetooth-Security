@@ -4,5 +4,6 @@ google-cloud-storage==1.4.0
 gunicorn==19.7.1
 numpy
 pandas
-h2o
+scikit-learn
+scipy
 requests
