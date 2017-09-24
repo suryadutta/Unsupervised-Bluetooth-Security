@@ -5,7 +5,7 @@ import time
 import csv
 import pandas as pd
 import numpy as np
-import h2o
+#import h2o
 import requests
 
 from flask import Flask, redirect, render_template, request
@@ -37,7 +37,7 @@ def upload_csv():
     #csv_public_url = blob.public_url
 
 
-    h2o.init()
+    #h2o.init()
 
     # read in csv as pandas dataframe, and drop index
     df = pd.read_csv(csv)
@@ -69,9 +69,8 @@ def upload_csv():
     print('end of file')
     print(mlpredictors)
 
-    #if kmeans_classifier(authTime, packetRate, eventRate, commandRate, encryptRate):
-        #r = requests.post("http://succ.pxtst.com:6069/res", data={'user': '23po48ufwer', 'error': 'true'})
-        #shit's going down
+    if kmeans_classifier(authTime, packetRate, eventRate, commandRate, encryptRate):
+        r = requests.post("http://succ.pxtst.com:6069/res", data={'user': '23po48ufwer', 'error': 'true'})
 
     # Redirect to the home page.
     return render_template('homepage.html')
@@ -82,3 +81,5 @@ def server_error(e):
     An internal error occurred: <pre>{}</pre>
     See csvs for full stacktrace.
     """.format(e), 500
+
+def
