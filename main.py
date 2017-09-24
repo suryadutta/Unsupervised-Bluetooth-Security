@@ -13,8 +13,6 @@ from google.cloud import storage
 
 app = Flask(__name__)
 
-
-
 @app.route('/')
 def homepage():
     # Redirect to the home page.
@@ -38,6 +36,8 @@ def upload_csv():
     #csv_public_url = blob.public_url
 
     df = pd.read_csv(csv)
+    userID = df.iloc[0,0]
+    df = df.iloc[1:]
     df.columns = ['Time','Info']
     df['Time'] = pd.to_datetime(df['Time'], format='%Y-%m-%d %H:%M:%S.%f').astype(np.int64)
     createConnection = pd.DataFrame(df.index[df['Info'].str.contains('HCI Command: Create Connection|HCI Command: Accept Connection Request')].tolist())
@@ -78,10 +78,10 @@ def upload_csv():
 
     if (newPredict == oldPredict):
         if (oldStatus):
-            requests.post("http://succ.pxtst.com:6069/res", data={'user': '23po48ufwer', 'error': 'true'})
+            requests.post("http://succ.pxtst.com:6069/res", data={userID: '23po48ufwer', 'error': 'true'})
     else:
         if (!(oldStatus)):
-            requests.post("http://succ.pxtst.com:6069/res", data={'user': '23po48ufwer', 'error': 'true'})
+            requests.post("http://succ.pxtst.com:6069/res", data={userID: '23po48ufwer', 'error': 'true'})
 
     # Redirect to the home page.
     return render_template('homepage.html')
@@ -92,3 +92,8 @@ def server_error(e):
     An internal error occurred: <pre>{}</pre>
     See csvs for full stacktrace.
     """.format(e), 500
+
+if __name__ == '__main__':
+    # This is used when running locally. Gunicorn is used to run the
+    # application on Google App Engine. See entrypoint in app.yaml.
+    app.run(host='127.0.0.1', port=8080, debug=True)    

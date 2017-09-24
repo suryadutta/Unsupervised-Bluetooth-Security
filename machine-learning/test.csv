@@ -1,0 +1,241 @@
+2017-01-04 12:20:19.985644 , HCI Command: Read Buffer Size (0x04|0x0005) plen 0
+2017-01-04 12:20:19.986082 , HCI Event: Command Complete (0x0e) plen 11     Read Buffer Size (0x04|0x0005) ncmd 1     status 0x00     ACL MTU 1024:7 SCO MTU 50:8
+2017-01-04 12:20:19.986198 , HCI Command: Host Buffer Size (0x03|0x0033) plen 7     ACL MTU 1691:20 SCO MTU 255:10
+2017-01-04 12:20:19.986487 , HCI Event: Command Complete (0x0e) plen 4     Host Buffer Size (0x03|0x0033) ncmd 1     status 0x00
+2017-01-04 12:20:19.986781 , HCI Command: Vendor (0x3f|0x0017) plen 5
+2017-01-04 12:20:19.987180 , HCI Event: Command Complete (0x0e) plen 4     Vendor (0x3f|0x03ff) ncmd 1
+2017-01-04 12:20:19.987331 , HCI Event: Command Complete (0x0e) plen 4     Unknown (0x00|0x0000) ncmd 1
+2017-01-04 12:20:19.987398 , HCI Command: Read Local Version Information (0x04|0x0001) plen 0
+2017-01-04 12:20:19.988400 , HCI Event: Command Complete (0x0e) plen 12     Read Local Version Information (0x04|0x0001) ncmd 1     status 0x00     HCI Version: 4.1 (0x7) HCI Revision: 0x0     LMP Version: 4.1 (0x7) LMP Subversion: 0x7d3     Manufacturer: Qualcomm (29)
+2017-01-04 12:20:19.988561 , HCI Command: Read BD ADDR (0x04|0x0009) plen 0
+2017-01-04 12:20:19.989397 , HCI Event: Command Complete (0x0e) plen 10     Read BD ADDR (0x04|0x0009) ncmd 1     status 0x00 bdaddr 2C:59:8A:AC:0E:45
+2017-01-04 12:20:19.989525 , HCI Command: Read Local Supported Commands (0x04|0x0002) plen 0
+2017-01-04 12:20:19.990272 , HCI Event: Command Complete (0x0e) plen 68     Read Local Supported Commands (0x04|0x0002) ncmd 1     status 0x00     Commands: ffffff03ceffefffffffff7ff20fe8fe3ff783ff1c00000061ffffff7f0620f3               ff
+2017-01-04 12:20:19.990383 , HCI Command: Read Local Extended Features (0x04|0x0004) plen 1     page 0
+2017-01-04 12:20:19.991161 , HCI Event: Command Complete (0x0e) plen 14     Read Local Extended Features (0x04|0x0004) ncmd 1     status 0x00 page 0 max 2     Features: 0xff 0xfe 0x8f 0xfe 0xd8 0x3f 0x5b 0x87
+2017-01-04 12:20:19.991262 , HCI Command: Write Simple Pairing Mode (0x03|0x0056) plen 1     mode 0x01
+2017-01-04 12:20:19.992090 , HCI Event: Command Complete (0x0e) plen 4     Write Simple Pairing Mode (0x03|0x0056) ncmd 1     status 0x00
+2017-01-04 12:20:19.992211 , HCI Command: Write LE Host Supported (0x03|0x006d) plen 2
+2017-01-04 12:20:19.992930 , HCI Event: Command Complete (0x0e) plen 4     Write LE Host Supported (0x03|0x006d) ncmd 1
+2017-01-04 12:20:19.993035 , HCI Command: Read Local Extended Features (0x04|0x0004) plen 1     page 1
+2017-01-04 12:20:19.993817 , HCI Event: Command Complete (0x0e) plen 14     Read Local Extended Features (0x04|0x0004) ncmd 1     status 0x00 page 1 max 2     Features: 0x07 0x00 0x00 0x00 0x00 0x00 0x00 0x00
+2017-01-04 12:20:19.993918 , HCI Command: Read Local Extended Features (0x04|0x0004) plen 1     page 2
+2017-01-04 12:20:19.994729 , HCI Event: Command Complete (0x0e) plen 14     Read Local Extended Features (0x04|0x0004) ncmd 1     status 0x00 page 2 max 2     Features: 0x00 0x03 0x00 0x00 0x00 0x00 0x00 0x00
+2017-01-04 12:20:19.994826 , HCI Command: Vendor (0x3f|0x0153) plen 0
+2017-01-04 12:20:19.995596 , HCI Event: Command Complete (0x0e) plen 12     Vendor (0x3f|0x0153) ncmd 1
+2017-01-04 12:20:19.995706 , HCI Event: Command Complete (0x0e) plen 4     Unknown (0x00|0x0000) ncmd 1
+2017-01-04 12:20:19.995744 , HCI Command: Unknown (0x03|0x007a) plen 1
+2017-01-04 12:20:19.996437 , HCI Event: Command Complete (0x0e) plen 4     Unknown (0x03|0x007a) ncmd 1
+2017-01-04 12:20:19.996534 , HCI Command: LE Read White List Size (0x08|0x000f) plen 0
+2017-01-04 12:20:19.997362 , HCI Event: Command Complete (0x0e) plen 5     LE Read White List Size (0x08|0x000f) ncmd 1
+2017-01-04 12:20:19.997461 , HCI Command: LE Read Buffer Size (0x08|0x0002) plen 0
+2017-01-04 12:20:19.998261 , HCI Event: Command Complete (0x0e) plen 7     LE Read Buffer Size (0x08|0x0002) ncmd 1     status 0x00 pktlen 0x0040 maxpkt 0x10
+2017-01-04 12:20:19.998359 , HCI Command: LE Read Supported States (0x08|0x001c) plen 0
+2017-01-04 12:20:19.999152 , HCI Event: Command Complete (0x0e) plen 12     LE Read Supported States (0x08|0x001c) ncmd 1
+2017-01-04 12:20:19.999249 , HCI Command: LE Read Local Supported Features (0x08|0x0003) plen 0
+2017-01-04 12:20:20.000065 , HCI Event: Command Complete (0x0e) plen 12     LE Read Local Supported Features (0x08|0x0003) ncmd 1     status 0x00 features 0x0f00000000000000 (Link Layer supports LE Encryption)
+2017-01-04 12:20:20.000165 , HCI Command: LE Set Event Mask (0x08|0x0001) plen 8     mask 0x7f06000000000000 (Reserved)
+2017-01-04 12:20:20.000938 , HCI Event: Command Complete (0x0e) plen 4     LE Set Event Mask (0x08|0x0001) ncmd 1     status 0x00
+2017-01-04 12:20:20.001034 , HCI Command: Set Event Mask (0x03|0x0001) plen 8     Mask: 0xffffffffffffbf3d
+2017-01-04 12:20:20.001803 , HCI Event: Command Complete (0x0e) plen 4     Set Event Mask (0x03|0x0001) ncmd 1     status 0x00
+2017-01-04 12:20:20.005326 , HCI Command: Write Inquiry Mode (0x03|0x0045) plen 1     mode 2
+2017-01-04 12:20:20.007540 , HCI Event: Command Complete (0x0e) plen 4     Write Inquiry Mode (0x03|0x0045) ncmd 1     status 0x00
+2017-01-04 12:20:20.007638 , HCI Command: Write Page Scan Type (0x03|0x0047) plen 1
+2017-01-04 12:20:20.008607 , HCI Event: Command Complete (0x0e) plen 4     Write Page Scan Type (0x03|0x0047) ncmd 1
+2017-01-04 12:20:20.008689 , HCI Command: Write Inquiry Scan Type (0x03|0x0043) plen 1     type 1
+2017-01-04 12:20:20.009581 , HCI Event: Command Complete (0x0e) plen 4     Write Inquiry Scan Type (0x03|0x0043) ncmd 1     status 0x00
+2017-01-04 12:20:20.009655 , HCI Command: Write Class of Device (0x03|0x0024) plen 3     class 0x5a020c
+2017-01-04 12:20:20.010533 , HCI Event: Command Complete (0x0e) plen 4     Write Class of Device (0x03|0x0024) ncmd 1     status 0x00
+2017-01-04 12:20:20.010596 , HCI Command: Write Page Timeout (0x03|0x0018) plen 2     timeout 8192
+2017-01-04 12:20:20.011484 , HCI Event: Command Complete (0x0e) plen 4     Write Page Timeout (0x03|0x0018) ncmd 1     status 0x00
+2017-01-04 12:20:20.011564 , HCI Command: Write Default Link Policy Settings (0x02|0x000f) plen 2     policy 0x07     Link policy: RSWITCH HOLD SNIFF
+2017-01-04 12:20:20.012427 , HCI Event: Command Complete (0x0e) plen 4     Write Default Link Policy Settings (0x02|0x000f) ncmd 1     status 0x00
+2017-01-04 12:20:20.012508 , HCI Command: Vendor (0x3f|0x0153) plen 0
+2017-01-04 12:20:20.013350 , HCI Event: Command Complete (0x0e) plen 12     Vendor (0x3f|0x0153) ncmd 1
+2017-01-04 12:20:20.013421 , HCI Event: Command Complete (0x0e) plen 4     Unknown (0x00|0x0000) ncmd 1
+2017-01-04 12:20:20.013463 , HCI Command: Read Local Name (0x03|0x0014) plen 0
+2017-01-04 12:20:20.014389 , HCI Event: Command Complete (0x0e) plen 252     Read Local Name (0x03|0x0014) ncmd 1     status 0x00 name ''
+2017-01-04 12:20:20.014564 , HCI Command: Vendor (0x3f|0x0155) plen 1
+2017-01-04 12:20:20.016994 , HCI Event: Command Complete (0x0e) plen 6     Vendor (0x3f|0x0155) ncmd 1
+2017-01-04 12:20:20.017139 , HCI Event: Command Complete (0x0e) plen 4     Unknown (0x00|0x0000) ncmd 1
+2017-01-04 12:20:20.017204 , HCI Command: Write Local Name (0x03|0x0013) plen 248     name 'LG K10'
+2017-01-04 12:20:20.019538 , HCI Event: Command Complete (0x0e) plen 4     Write Local Name (0x03|0x0013) ncmd 1     status 0x00
+2017-01-04 12:20:20.019680 , HCI Command: Write Extended Inquiry Response (0x03|0x0052) plen 241     fec 0x01     Complete local name: 'LG K10'     Complete service classes:     Unknown type 0x05 with 0 bytes data     Unknown type 0x07 with 0 bytes data
+2017-01-04 12:20:20.021701 , HCI Event: Command Complete (0x0e) plen 4     Write Extended Inquiry Response (0x03|0x0052) ncmd 1     status 0x00
+2017-01-04 12:20:20.021969 , HCI Command: LE Rand (0x08|0x0018) plen 0
+2017-01-04 12:20:20.028998 , HCI Event: Command Complete (0x0e) plen 12     LE Rand (0x08|0x0018) ncmd 1
+2017-01-04 12:20:20.029145 , HCI Command: LE Rand (0x08|0x0018) plen 0
+2017-01-04 12:20:20.034394 , HCI Event: Command Complete (0x0e) plen 12     LE Rand (0x08|0x0018) ncmd 1
+2017-01-04 12:20:20.034567 , HCI Command: LE Rand (0x08|0x0018) plen 0
+2017-01-04 12:20:20.040224 , HCI Event: Command Complete (0x0e) plen 12     LE Rand (0x08|0x0018) ncmd 1
+2017-01-04 12:20:20.040351 , HCI Command: LE Rand (0x08|0x0018) plen 0
+2017-01-04 12:20:20.045999 , HCI Event: Command Complete (0x0e) plen 12     LE Rand (0x08|0x0018) ncmd 1
+2017-01-04 12:20:20.046182 , HCI Command: LE Rand (0x08|0x0018) plen 0
+2017-01-04 12:20:20.053113 , HCI Event: Command Complete (0x0e) plen 12     LE Rand (0x08|0x0018) ncmd 1
+2017-01-04 12:20:20.053273 , HCI Command: LE Rand (0x08|0x0018) plen 0
+2017-01-04 12:20:20.060448 , HCI Event: Command Complete (0x0e) plen 12     LE Rand (0x08|0x0018) ncmd 1
+2017-01-04 12:20:20.060616 , HCI Command: LE Rand (0x08|0x0018) plen 0
+2017-01-04 12:20:20.066367 , HCI Event: Command Complete (0x0e) plen 12     LE Rand (0x08|0x0018) ncmd 1
+2017-01-04 12:20:20.066557 , HCI Command: LE Rand (0x08|0x0018) plen 0
+2017-01-04 12:20:20.072304 , HCI Event: Command Complete (0x0e) plen 12     LE Rand (0x08|0x0018) ncmd 1
+2017-01-04 12:20:20.072472 , HCI Command: LE Rand (0x08|0x0018) plen 0
+2017-01-04 12:20:20.078954 , HCI Event: Command Complete (0x0e) plen 12     LE Rand (0x08|0x0018) ncmd 1
+2017-01-04 12:20:20.079104 , HCI Command: LE Rand (0x08|0x0018) plen 0
+2017-01-04 12:20:20.084973 , HCI Event: Command Complete (0x0e) plen 12     LE Rand (0x08|0x0018) ncmd 1
+2017-01-04 12:20:20.085117 , HCI Command: LE Set Random Address (0x08|0x0005) plen 6     bdaddr 4E:2F:1A:59:F7:E4
+2017-01-04 12:20:20.086594 , HCI Event: Command Complete (0x0e) plen 4     LE Set Random Address (0x08|0x0005) ncmd 1     status 0x00
+2017-01-04 12:20:20.086772 , HCI Command: Vendor (0x3f|0x0154) plen 8
+2017-01-04 12:20:20.088895 , HCI Event: Command Complete (0x0e) plen 5     Vendor (0x3f|0x0154) ncmd 1
+2017-01-04 12:20:20.089035 , HCI Event: Command Complete (0x0e) plen 4     Unknown (0x00|0x0000) ncmd 1
+2017-01-04 12:20:20.089094 , HCI Command: Vendor (0x3f|0x0154) plen 8
+2017-01-04 12:20:20.090857 , HCI Event: Command Complete (0x0e) plen 5     Vendor (0x3f|0x0154) ncmd 1
+2017-01-04 12:20:20.091007 , HCI Event: Command Complete (0x0e) plen 4     Unknown (0x00|0x0000) ncmd 1
+2017-01-04 12:20:20.091067 , HCI Command: Vendor (0x3f|0x0154) plen 8
+2017-01-04 12:20:20.093468 , HCI Event: Command Complete (0x0e) plen 5     Vendor (0x3f|0x0154) ncmd 1
+2017-01-04 12:20:20.093648 , HCI Event: Command Complete (0x0e) plen 4     Unknown (0x00|0x0000) ncmd 1
+2017-01-04 12:20:20.093712 , HCI Command: Vendor (0x3f|0x0154) plen 8
+2017-01-04 12:20:20.095726 , HCI Event: Command Complete (0x0e) plen 5     Vendor (0x3f|0x0154) ncmd 1
+2017-01-04 12:20:20.095888 , HCI Event: Command Complete (0x0e) plen 4     Unknown (0x00|0x0000) ncmd 1
+2017-01-04 12:20:20.095952 , HCI Command: Vendor (0x3f|0x0154) plen 8
+2017-01-04 12:20:20.098030 , HCI Event: Command Complete (0x0e) plen 5     Vendor (0x3f|0x0154) ncmd 1
+2017-01-04 12:20:20.098258 , HCI Event: Command Complete (0x0e) plen 4     Unknown (0x00|0x0000) ncmd 1
+2017-01-04 12:20:20.098329 , HCI Command: Vendor (0x3f|0x0154) plen 8
+2017-01-04 12:20:20.100077 , HCI Event: Command Complete (0x0e) plen 5     Vendor (0x3f|0x0154) ncmd 1
+2017-01-04 12:20:20.100213 , HCI Event: Command Complete (0x0e) plen 4     Unknown (0x00|0x0000) ncmd 1
+2017-01-04 12:20:20.100270 , HCI Command: Vendor (0x3f|0x0154) plen 8
+2017-01-04 12:20:20.101199 , HCI Event: Command Complete (0x0e) plen 5     Vendor (0x3f|0x0154) ncmd 1
+2017-01-04 12:20:20.101329 , HCI Event: Command Complete (0x0e) plen 4     Unknown (0x00|0x0000) ncmd 1
+2017-01-04 12:20:20.101380 , HCI Command: Vendor (0x3f|0x0154) plen 8
+2017-01-04 12:20:20.102127 , HCI Event: Command Complete (0x0e) plen 5     Vendor (0x3f|0x0154) ncmd 1
+2017-01-04 12:20:20.102276 , HCI Event: Command Complete (0x0e) plen 4     Unknown (0x00|0x0000) ncmd 1
+2017-01-04 12:20:20.102332 , HCI Command: Vendor (0x3f|0x0154) plen 8
+2017-01-04 12:20:20.104995 , HCI Event: Command Complete (0x0e) plen 5     Vendor (0x3f|0x0154) ncmd 1
+2017-01-04 12:20:20.105174 , HCI Event: Command Complete (0x0e) plen 4     Unknown (0x00|0x0000) ncmd 1
+2017-01-04 12:20:20.142230 , HCI Command: Write Extended Inquiry Response (0x03|0x0052) plen 241     fec 0x01     Complete local name: 'LG K10'     Complete service classes: 0x1200     Unknown type 0x05 with 0 bytes data     Unknown type 0x07 with 0 bytes data
+2017-01-04 12:20:20.144697 , HCI Event: Command Complete (0x0e) plen 4     Write Extended Inquiry Response (0x03|0x0052) ncmd 1     status 0x00
+2017-01-04 12:20:20.278105 , HCI Command: Write Voice Setting (0x03|0x0026) plen 2     voice setting 0x0060
+2017-01-04 12:20:20.280143 , HCI Event: Command Complete (0x0e) plen 4     Write Voice Setting (0x03|0x0026) ncmd 1     status 0x00
+2017-01-04 12:20:20.281920 , HCI Command: Write Extended Inquiry Response (0x03|0x0052) plen 241     fec 0x01     Complete local name: 'LG K10'     Complete service classes: 0x1112 0x1200     Unknown type 0x05 with 0 bytes data     Unknown type 0x07 with 0 bytes data
+2017-01-04 12:20:20.284286 , HCI Event: Command Complete (0x0e) plen 4     Write Extended Inquiry Response (0x03|0x0052) ncmd 1     status 0x00
+2017-01-04 12:20:20.286448 , HCI Command: Write Extended Inquiry Response (0x03|0x0052) plen 241     fec 0x01     Complete local name: 'LG K10'     Complete service classes: 0x1112 0x111f 0x1200     Unknown type 0x05 with 0 bytes data     Unknown type 0x07 with 0 bytes data
+2017-01-04 12:20:20.293227 , HCI Event: Command Complete (0x0e) plen 4     Write Extended Inquiry Response (0x03|0x0052) ncmd 1     status 0x00
+2017-01-04 12:20:20.613006 , HCI Command: Write Extended Inquiry Response (0x03|0x0052) plen 241     fec 0x01     Complete local name: 'LG K10'     Complete service classes: 0x110c 0x1112 0x111f 0x1200     Unknown type 0x05 with 0 bytes data     Unknown type 0x07 with 0 bytes data
+2017-01-04 12:20:20.617988 , HCI Event: Command Complete (0x0e) plen 4     Write Extended Inquiry Response (0x03|0x0052) ncmd 1     status 0x00
+2017-01-04 12:20:20.619863 , HCI Command: Write Extended Inquiry Response (0x03|0x0052) plen 241     fec 0x01     Complete local name: 'LG K10'     Complete service classes: 0x110a 0x110c 0x1112 0x111f 0x1200     Unknown type 0x05 with 0 bytes data     Unknown type 0x07 with 0 bytes data
+2017-01-04 12:20:20.622758 , HCI Event: Command Complete (0x0e) plen 4     Write Extended Inquiry Response (0x03|0x0052) ncmd 1     status 0x00
+2017-01-04 12:20:20.624332 , HCI Command: Write Extended Inquiry Response (0x03|0x0052) plen 241     fec 0x01     Complete local name: 'LG K10'     Complete service classes: 0x110a 0x110c 0x110e 0x1112 0x111f 0x1200     Unknown type 0x05 with 0 bytes data     Unknown type 0x07 with 0 bytes data
+2017-01-04 12:20:20.626557 , HCI Event: Command Complete (0x0e) plen 4     Write Extended Inquiry Response (0x03|0x0052) ncmd 1     status 0x00
+2017-01-04 12:20:20.833610 , HCI Command: Write Inquiry Scan Activity (0x03|0x001e) plen 4     interval 2048 window 18
+2017-01-04 12:20:20.839096 , HCI Event: Command Complete (0x0e) plen 4     Write Inquiry Scan Activity (0x03|0x001e) ncmd 1     status 0x00
+2017-01-04 12:20:20.846997 , HCI Command: Write Scan Enable (0x03|0x001a) plen 1     enable 0
+2017-01-04 12:20:20.851486 , HCI Event: Command Complete (0x0e) plen 4     Write Scan Enable (0x03|0x001a) ncmd 1     status 0x00
+2017-01-04 12:20:20.855073 , HCI Command: Write Scan Enable (0x03|0x001a) plen 1     enable 2
+2017-01-04 12:20:20.865430 , HCI Event: Command Complete (0x0e) plen 4     Write Scan Enable (0x03|0x001a) ncmd 1     status 0x00
+2017-01-04 12:20:21.115476 , HCI Command: Write Extended Inquiry Response (0x03|0x0052) plen 241     fec 0x01     Complete local name: 'LG K10'     Complete service classes: 0x110a 0x110c 0x110e 0x1112 0x111f 0x1200 0x1132     Unknown type 0x05 with 0 bytes data     Unknown type 0x07 with 0 bytes data
+2017-01-04 12:20:21.119756 , HCI Event: Command Complete (0x0e) plen 4     Write Extended Inquiry Response (0x03|0x0052) ncmd 1     status 0x00
+2017-01-04 12:20:21.133030 , HCI Command: Write Extended Inquiry Response (0x03|0x0052) plen 241     fec 0x01     Complete local name: 'LG K10'     Complete service classes: 0x110a 0x110c 0x110e 0x1112 0x111f 0x112f 0x1200 0x1132     Unknown type 0x05 with 0 bytes data     Unknown type 0x07 with 0 bytes data
+2017-01-04 12:20:21.134740 , HCI Event: Command Complete (0x0e) plen 4     Write Extended Inquiry Response (0x03|0x0052) ncmd 1     status 0x00
+2017-01-04 12:20:21.140027 , HCI Command: Vendor (0x3f|0x0157) plen 2
+2017-01-04 12:20:21.147963 , HCI Event: Command Complete (0x0e) plen 6     Vendor (0x3f|0x0157) ncmd 1
+2017-01-04 12:20:21.157630 , HCI Command: Vendor (0x3f|0x0157) plen 11
+2017-01-04 12:20:21.160144 , HCI Event: Command Complete (0x0e) plen 7     Vendor (0x3f|0x0157) ncmd 1
+2017-01-04 12:20:21.163990 , HCI Command: Vendor (0x3f|0x0157) plen 16
+2017-01-04 12:20:21.166629 , HCI Event: Command Complete (0x0e) plen 7     Vendor (0x3f|0x0157) ncmd 1
+2017-01-04 12:20:21.169205 , HCI Command: Vendor (0x3f|0x0157) plen 7
+2017-01-04 12:20:21.171881 , HCI Event: Command Complete (0x0e) plen 7     Vendor (0x3f|0x0157) ncmd 1
+2017-01-04 12:20:21.180414 , HCI Command: Vendor (0x3f|0x0157) plen 16
+2017-01-04 12:20:21.183645 , HCI Event: Command Complete (0x0e) plen 7     Vendor (0x3f|0x0157) ncmd 1
+2017-01-04 12:20:21.186397 , HCI Command: Vendor (0x3f|0x0157) plen 7
+2017-01-04 12:20:21.192288 , HCI Event: Command Complete (0x0e) plen 7     Vendor (0x3f|0x0157) ncmd 1
+2017-01-04 12:20:21.195128 , HCI Command: Vendor (0x3f|0x0157) plen 16
+2017-01-04 12:20:21.197269 , HCI Event: Command Complete (0x0e) plen 7     Vendor (0x3f|0x0157) ncmd 1
+2017-01-04 12:20:21.199782 , HCI Command: LE Set Scan Parameters (0x08|0x000b) plen 7     type 0x01 (active)     interval 11.250ms window 11.250ms     own address: 0x01 (Random) policy: All
+2017-01-04 12:20:21.201881 , HCI Event: Command Complete (0x0e) plen 4     LE Set Scan Parameters (0x08|0x000b) ncmd 1     status 0x00
+2017-01-04 12:20:21.203521 , HCI Command: LE Set Scan Enable (0x08|0x000c) plen 2     value 0x01 (scanning enabled)     filter duplicates 0x00 (disabled)
+2017-01-04 12:20:21.207451 , HCI Event: Command Complete (0x0e) plen 4     LE Set Scan Enable (0x08|0x000c) ncmd 1     status 0x00
+2017-01-04 12:20:21.209988 , HCI Command: LE Set Scan Enable (0x08|0x000c) plen 2     value 0x00 (scanning disabled)     filter duplicates 0x01 (enabled)
+2017-01-04 12:20:21.212755 , HCI Event: Command Complete (0x0e) plen 4     LE Set Scan Enable (0x08|0x000c) ncmd 1     status 0x00
+2017-01-04 12:20:21.214985 , HCI Command: LE Set Scan Parameters (0x08|0x000b) plen 7     type 0x01 (active)     interval 11.250ms window 11.250ms     own address: 0x01 (Random) policy: All
+2017-01-04 12:20:21.218900 , HCI Event: Command Complete (0x0e) plen 4     LE Set Scan Parameters (0x08|0x000b) ncmd 1     status 0x00
+2017-01-04 12:20:21.220916 , HCI Command: LE Set Scan Parameters (0x08|0x000b) plen 7     type 0x01 (active)     interval 5000.000ms window 5000.000ms     own address: 0x01 (Random) policy: All
+2017-01-04 12:20:21.223261 , HCI Event: Command Complete (0x0e) plen 4     LE Set Scan Parameters (0x08|0x000b) ncmd 1     status 0x00
+2017-01-04 12:20:21.227433 , HCI Command: LE Set Scan Enable (0x08|0x000c) plen 2     value 0x01 (scanning enabled)     filter duplicates 0x00 (disabled)
+2017-01-04 12:20:21.231852 , HCI Event: Command Complete (0x0e) plen 4     LE Set Scan Enable (0x08|0x000c) ncmd 1     status 0x00
+2017-01-04 12:20:22.264772 , HCI Command: Write Current IAC LAP (0x03|0x003a) plen 4     IAC 0x9e8b33 (General Inquiry Access Code)
+2017-01-04 12:20:22.266421 , HCI Event: Command Complete (0x0e) plen 4     Write Current IAC LAP (0x03|0x003a) ncmd 1     status 0x00
+2017-01-04 12:20:22.271391 , HCI Command: Write Scan Enable (0x03|0x001a) plen 1     enable 3
+2017-01-04 12:20:22.274482 , HCI Event: Command Complete (0x0e) plen 4     Write Scan Enable (0x03|0x001a) ncmd 1     status 0x00
+2017-01-04 12:20:22.276293 , HCI Command: Write Scan Enable (0x03|0x001a) plen 1     enable 3
+2017-01-04 12:20:22.278628 , HCI Event: Command Complete (0x0e) plen 4     Write Scan Enable (0x03|0x001a) ncmd 1     status 0x00
+2017-01-04 12:20:24.464210 , HCI Command: Write Scan Enable (0x03|0x001a) plen 1     enable 2
+2017-01-04 12:20:24.467011 , HCI Event: Command Complete (0x0e) plen 4     Write Scan Enable (0x03|0x001a) ncmd 1     status 0x00
+2017-01-04 12:20:24.469348 , HCI Command: Write Scan Enable (0x03|0x001a) plen 1     enable 2
+2017-01-04 12:20:24.474397 , HCI Event: Command Complete (0x0e) plen 4     Write Scan Enable (0x03|0x001a) ncmd 1     status 0x00
+2017-01-04 12:20:25.381993 , HCI Command: LE Set Scan Enable (0x08|0x000c) plen 2     value 0x00 (scanning disabled)     filter duplicates 0x01 (enabled)
+2017-01-04 12:20:25.390368 , HCI Event: Command Complete (0x0e) plen 4     LE Set Scan Enable (0x08|0x000c) ncmd 1     status 0x00
+2017-01-04 12:20:25.393167 , HCI Command: LE Set Scan Parameters (0x08|0x000b) plen 7     type 0x01 (active)     interval 5000.000ms window 5000.000ms     own address: 0x01 (Random) policy: All
+2017-01-04 12:20:25.396134 , HCI Event: Command Complete (0x0e) plen 4     LE Set Scan Parameters (0x08|0x000b) ncmd 1     status 0x00
+2017-01-04 12:20:25.398063 , HCI Command: Vendor (0x3f|0x0157) plen 3
+2017-01-04 12:20:25.400747 , HCI Event: Command Complete (0x0e) plen 7     Vendor (0x3f|0x0157) ncmd 1
+2017-01-04 12:20:25.409041 , HCI Command: Vendor (0x3f|0x0157) plen 3
+2017-01-04 12:20:25.416315 , HCI Event: Command Complete (0x0e) plen 7     Vendor (0x3f|0x0157) ncmd 1
+2017-01-04 12:20:25.420114 , HCI Command: Vendor (0x3f|0x0157) plen 3
+2017-01-04 12:20:25.428264 , HCI Event: Command Complete (0x0e) plen 7     Vendor (0x3f|0x0157) ncmd 1
+2017-01-04 12:20:26.367013 , HCI Command: Write Extended Inquiry Response (0x03|0x0052) plen 241     fec 0x01     Complete local name: 'LG K10'     Complete service classes: 0x1105 0x110a 0x110c 0x110e 0x1112 0x111f 0x112f 0x1200 0x1132     Unknown type 0x05 with 0 bytes data     Unknown type 0x07 with 0 bytes data
+2017-01-04 12:20:26.370476 , HCI Event: Command Complete (0x0e) plen 4     Write Extended Inquiry Response (0x03|0x0052) ncmd 1     status 0x00
+2017-01-04 12:20:26.689429 , HCI Command: Vendor (0x3f|0x0157) plen 2
+2017-01-04 12:20:26.692184 , HCI Event: Command Complete (0x0e) plen 6     Vendor (0x3f|0x0157) ncmd 1
+2017-01-04 12:20:26.696942 , HCI Command: Vendor (0x3f|0x0157) plen 13
+2017-01-04 12:20:26.702303 , HCI Event: Command Complete (0x0e) plen 7     Vendor (0x3f|0x0157) ncmd 1
+2017-01-04 12:20:26.720346 , HCI Command: Vendor (0x3f|0x0157) plen 16
+2017-01-04 12:20:26.725129 , HCI Event: Command Complete (0x0e) plen 7     Vendor (0x3f|0x0157) ncmd 1
+2017-01-04 12:20:26.737272 , HCI Command: Vendor (0x3f|0x0157) plen 7
+2017-01-04 12:20:26.739541 , HCI Event: Command Complete (0x0e) plen 7     Vendor (0x3f|0x0157) ncmd 1
+2017-01-04 12:20:26.742079 , HCI Command: Vendor (0x3f|0x0157) plen 16
+2017-01-04 12:20:26.744732 , HCI Event: Command Complete (0x0e) plen 7     Vendor (0x3f|0x0157) ncmd 1
+2017-01-04 12:20:26.748396 , HCI Command: Vendor (0x3f|0x0157) plen 11
+2017-01-04 12:20:26.752001 , HCI Event: Command Complete (0x0e) plen 7     Vendor (0x3f|0x0157) ncmd 1
+2017-01-04 12:20:26.767220 , HCI Command: Vendor (0x3f|0x0157) plen 16
+2017-01-04 12:20:26.771101 , HCI Event: Command Complete (0x0e) plen 7     Vendor (0x3f|0x0157) ncmd 1
+2017-01-04 12:20:26.776192 , HCI Command: Vendor (0x3f|0x0157) plen 7
+2017-01-04 12:20:26.778801 , HCI Event: Command Complete (0x0e) plen 7     Vendor (0x3f|0x0157) ncmd 1
+2017-01-04 12:20:26.788053 , HCI Command: Vendor (0x3f|0x0157) plen 16
+2017-01-04 12:20:26.790966 , HCI Event: Command Complete (0x0e) plen 7     Vendor (0x3f|0x0157) ncmd 1
+2017-01-04 12:20:26.794752 , HCI Command: Vendor (0x3f|0x0157) plen 11
+2017-01-04 12:20:26.800846 , HCI Event: Command Complete (0x0e) plen 7     Vendor (0x3f|0x0157) ncmd 1
+2017-01-04 12:20:26.821901 , HCI Command: Vendor (0x3f|0x0157) plen 16
+2017-01-04 12:20:26.824782 , HCI Event: Command Complete (0x0e) plen 7     Vendor (0x3f|0x0157) ncmd 1
+2017-01-04 12:20:26.833186 , HCI Command: Vendor (0x3f|0x0157) plen 7
+2017-01-04 12:20:26.835722 , HCI Event: Command Complete (0x0e) plen 7     Vendor (0x3f|0x0157) ncmd 1
+2017-01-04 12:20:26.843543 , HCI Command: Vendor (0x3f|0x0157) plen 16
+2017-01-04 12:20:26.846731 , HCI Event: Command Complete (0x0e) plen 7     Vendor (0x3f|0x0157) ncmd 1
+2017-01-04 12:20:26.850310 , HCI Command: LE Set Scan Parameters (0x08|0x000b) plen 7     type 0x01 (active)     interval 5000.000ms window 5000.000ms     own address: 0x01 (Random) policy: All
+2017-01-04 12:20:26.853224 , HCI Event: Command Complete (0x0e) plen 4     LE Set Scan Parameters (0x08|0x000b) ncmd 1     status 0x00
+2017-01-04 12:20:26.857199 , HCI Command: LE Set Scan Enable (0x08|0x000c) plen 2     value 0x01 (scanning enabled)     filter duplicates 0x00 (disabled)
+2017-01-04 12:20:26.862018 , HCI Event: Command Complete (0x0e) plen 4     LE Set Scan Enable (0x08|0x000c) ncmd 1     status 0x00
+2017-01-04 12:20:26.867240 , HCI Command: LE Set Scan Enable (0x08|0x000c) plen 2     value 0x00 (scanning disabled)     filter duplicates 0x01 (enabled)
+2017-01-04 12:20:26.869826 , HCI Event: Command Complete (0x0e) plen 4     LE Set Scan Enable (0x08|0x000c) ncmd 1     status 0x00
+2017-01-04 12:20:26.873075 , HCI Command: LE Set Scan Parameters (0x08|0x000b) plen 7     type 0x01 (active)     interval 5000.000ms window 5000.000ms     own address: 0x01 (Random) policy: All
+2017-01-04 12:20:26.878836 , HCI Event: Command Complete (0x0e) plen 4     LE Set Scan Parameters (0x08|0x000b) ncmd 1     status 0x00
+2017-01-04 12:20:26.881569 , HCI Command: LE Set Scan Parameters (0x08|0x000b) plen 7     type 0x01 (active)     interval 5000.000ms window 5000.000ms     own address: 0x01 (Random) policy: All
+2017-01-04 12:20:26.883810 , HCI Event: Command Complete (0x0e) plen 4     LE Set Scan Parameters (0x08|0x000b) ncmd 1     status 0x00
+2017-01-04 12:20:26.885846 , HCI Command: LE Set Scan Enable (0x08|0x000c) plen 2     value 0x01 (scanning enabled)     filter duplicates 0x00 (disabled)
+2017-01-04 12:20:26.895023 , HCI Event: Command Complete (0x0e) plen 4     LE Set Scan Enable (0x08|0x000c) ncmd 1     status 0x00
+2017-01-04 12:20:28.444814 , HCI Event: LE Meta Event (0x3e) plen 36     LE Advertising Report       ADV_IND - Connectable undirected advertising (0)       bdaddr 30:A9:DE:B2:F5:71 (Public)       Flags: 0x06       Complete service classes: 0xfea0       Unknown type 0x16 with 15 bytes data       RSSI: -94
+2017-01-04 12:20:28.445023 , HCI Event: LE Meta Event (0x3e) plen 25     LE Advertising Report       SCAN_RSP - Scan Response (4)       bdaddr 30:A9:DE:B2:F5:71 (Public)       Complete local name: 'Cast TV1264'       RSSI: -93
+2017-01-04 12:20:32.585035 , HCI Command: LE Set Scan Enable (0x08|0x000c) plen 2     value 0x00 (scanning disabled)     filter duplicates 0x01 (enabled)
+2017-01-04 12:20:32.588166 , HCI Event: Command Complete (0x0e) plen 4     LE Set Scan Enable (0x08|0x000c) ncmd 1     status 0x00
+2017-01-04 12:20:32.590264 , HCI Command: LE Set Scan Parameters (0x08|0x000b) plen 7     type 0x01 (active)     interval 5000.000ms window 5000.000ms     own address: 0x01 (Random) policy: All
+2017-01-04 12:20:32.592980 , HCI Event: Command Complete (0x0e) plen 4     LE Set Scan Parameters (0x08|0x000b) ncmd 1     status 0x00
+2017-01-04 12:20:32.594734 , HCI Command: Vendor (0x3f|0x0157) plen 3
+2017-01-04 12:20:32.597014 , HCI Event: Command Complete (0x0e) plen 7     Vendor (0x3f|0x0157) ncmd 1
+2017-01-04 12:20:32.599592 , HCI Command: Vendor (0x3f|0x0157) plen 3
+2017-01-04 12:20:32.602332 , HCI Event: Command Complete (0x0e) plen 7     Vendor (0x3f|0x0157) ncmd 1
+2017-01-04 12:20:32.606146 , HCI Command: Vendor (0x3f|0x0157) plen 3
+2017-01-04 12:20:32.608736 , HCI Event: Command Complete (0x0e) plen 7     Vendor (0x3f|0x0157) ncmd 1
+2017-01-04 12:20:32.612848 , HCI Command: Vendor (0x3f|0x0157) plen 3
+2017-01-04 12:20:32.615023 , HCI Event: Command Complete (0x0e) plen 7     Vendor (0x3f|0x0157) ncmd 1
+2017-01-04 12:20:32.617440 , HCI Command: Vendor (0x3f|0x0157) plen 3
+2017-01-04 12:20:32.619529 , HCI Event: Command Complete (0x0e) plen 7     Vendor (0x3f|0x0157) ncmd 1
+2017-01-04 12:20:32.621977 , HCI Command: Vendor (0x3f|0x0157) plen 3
+2017-01-04 12:20:32.624071 , HCI Event: Command Complete (0x0e) plen 7     Vendor (0x3f|0x0157) ncmd 1 
